@@ -1,0 +1,118 @@
+.testimonials {
+  padding: 5rem 1.5rem;
+  background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-white) 100%);
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color: var(--color-navy);
+}
+
+.carousel {
+  position: relative;
+  min-height: 320px;
+}
+
+.testimonialItem {
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.testimonialItem.active {
+  opacity: 1;
+  position: relative;
+}
+
+.messageBox {
+  background: var(--color-white);
+  padding: 3rem 3rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  position: relative;
+  border-left: 4px solid var(--color-gold);
+  max-width: 800px;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+}
+
+.messageBox:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.12);
+}
+
+.quoteIcon {
+  position: absolute;
+  top: 2rem;
+  left: 2.5rem;
+  font-size: 3rem;
+  color: var(--color-gold);
+  opacity: 0.3;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.quote {
+  font-size: 1.2rem;
+  line-height: 1.9;
+  color: var(--color-navy);
+  margin-bottom: 2rem;
+  font-style: italic;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.author {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-gold);
+  position: relative;
+  padding-top: 1rem;
+  border-top: 2px solid var(--color-light-gray);
+  display: inline-block;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-gray);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.dot.active {
+  background: var(--color-gold);
+  transform: scale(1.2);
+}
+
+@media (max-width: 640px) {
+  .testimonials {
+    padding: 3rem 1rem;
+  }
+  
+  .heading {
+    font-size: 2rem;
+  }
+  
+  .quote {
+    font-size: 1.125rem;
+  }
+}
