@@ -9,7 +9,7 @@ const Footer = () => {
           <a href="#" className={styles.link}>Privacy Policy</a>
         </div>
         <p className={styles.copyright}>
-          © {new Date().getFullYear()} Khinda Homes. All rights reserved.
+          © {new Date().getFullYear()} Khinda Limited. All rights reserved.
         </p>
       </div>
     </footer>

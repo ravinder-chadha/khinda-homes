@@ -1,6 +1,6 @@
-# Khinda Homes Website
+# Khinda Limited Website
 
-A modern, responsive website for Khinda Homes - a licensed family-owned residential renovation and finishing company serving Alberta.
+A modern, responsive website for Khinda Limited - a licensed family-owned residential renovation and finishing company serving Alberta.
 
 ## 🚀 Features
 
@@ -127,7 +127,7 @@ npm run preview
 
 **Office**: 303-116 Loutit Road, Fort McMurray, Alberta, Canada T9K 0K5  
 **Phone**: 780-803-3245  
-**Email**: karamkhinda12@gmail.com  
+**Email**: info@khindaltd.com  
 **Social**: @khindahomes  
 
 **Office Hours**: Monday to Friday 9:00 am to 6:00 pm, Weekends by appointment
@@ -142,4 +142,4 @@ npm run preview
 
 ## 📝 License
 
-© 2026 Khinda Homes. All rights reserved.
+© 2026 Khinda Limited. All rights reserved.
