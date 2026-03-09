@@ -11,7 +11,7 @@ const Services = () => {
           </div>
           <div className={styles.content}>
             <p className={styles.description}>
-              Khinda Limited provides complete residential renovation and finishing services designed 
+              Khinda Ltd provides complete residential renovation and finishing services designed 
               around quality, reliability, and attention to detail. From planning and coordination 
               to final finishing, we manage each project with care to ensure smooth execution and 
               lasting results. Our team is committed to delivering skilled workmanship, clear 

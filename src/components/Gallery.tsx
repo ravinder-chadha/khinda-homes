@@ -22,6 +22,7 @@ const Gallery = () => {
       '/assets/works/work-44.jpeg',
       '/assets/works/work-45.jpeg',
       '/assets/works/work-46.jpeg',
+      '/assets/works/work-50.jpeg',
       '/assets/works/work-14.jpeg'
     ],
     exterior: [
@@ -39,6 +40,7 @@ const Gallery = () => {
       '/assets/works/work-34.jpeg',
       '/assets/works/work-35.jpeg',
       '/assets/works/work-41.jpeg',
+      '/assets/works/work-49.jpeg',
       '/assets/works/work-20.jpeg'
     ],
     cabinets: [
@@ -51,6 +53,7 @@ const Gallery = () => {
       '/assets/works/work-39.jpeg',
       '/assets/works/work-40.jpeg',
       '/assets/works/work-47.jpeg',
+      '/assets/works/work-48.jpeg',
       '/assets/works/work-15.jpeg'
     ]
   }

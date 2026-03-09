@@ -23,7 +23,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.logo}>
-          <img src="/assets/logo/kh-logo.jpeg" alt="Khinda Limited" />
+          <img src="/assets/logo/kh-logo.png" alt="Khinda Limited" />
         </div>
         
         <nav className={`${styles.nav} ${isMenuOpen ? styles.open : ''}`}>

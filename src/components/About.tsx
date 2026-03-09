@@ -20,7 +20,7 @@ const About = () => {
             </div>
           </div>
           <div className={styles.text}>
-            <h2>Khinda Limited is a licensed, insured, and WCB-covered family-owned residential renovation and finishing company proudly serving communities across Alberta.</h2>
+            <h2>Khinda Ltd is a licensed, insured, and WCB-covered family-owned residential renovation and finishing company proudly serving communities across Alberta.</h2>
             <p>
               We are committed to delivering high-quality craftsmanship, reliable service, and professional project management for every home renovation and finishing project.
             </p>
