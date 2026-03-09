@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react'
 import styles from './WorksShowcase.module.css'
 
 const WorksShowcase = () => {
-  // All 29 work images
-  const allImages = Array.from({ length: 29 }, (_, i) => 
+  // All 47 work images
+  const allImages = Array.from({ length: 47 }, (_, i) => 
     `/assets/works/work-${String(i + 1).padStart(2, '0')}.jpeg`
   )
   

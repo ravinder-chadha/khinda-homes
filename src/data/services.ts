@@ -16,6 +16,14 @@ export const mainServices: Service[] = [
   {
     id: 3,
     title: "Interiors, Exteriors & Finishing"
+  },
+  {
+    id: 4,
+    title: "Basement Development"
+  },
+  {
+    id: 5,
+    title: "Decks, Fencing & Slidings"
   }
 ];
 

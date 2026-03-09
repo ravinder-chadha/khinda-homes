@@ -8,10 +8,10 @@ export interface ContactInfo {
 }
 
 export const contactInfo: ContactInfo = {
-  address: "303-116 Loutit Road, Fort McMurray, Alberta, Canada",
-  postalCode: "T9K 0K5",
+  address: "16 Martindale Dr NE, Calgary, Alberta, Canada",
+  postalCode: "T3J 2V6",
   phone: "780-803-3245",
   email: "info@khindaltd.com",
   officeHours: "Monday to Friday 9:00 am to 6:00 pm\nWeekends by appointment",
-  socialMedia: "@khindahomes"
+  socialMedia: "@khinda_ltd"
 };
