@@ -20,13 +20,18 @@ const About = () => {
             </div>
           </div>
           <div className={styles.text}>
-            <h2>Khinda Limited is a licensed, family-owned residential renovation and finishing company proudly serving communities across Alberta.</h2>
+            <h2>Khinda Limited is a licensed, insured, and WCB-covered family-owned residential renovation and finishing company proudly serving communities across Alberta.</h2>
             <p>
-              Built on trust and quality craftsmanship, Khinda Limited specializes in residential renovations, 
-              exterior work, flooring, tiling, painting, and custom finishing. We focus on clear communication, 
-              reliable timelines, and results that meet expectations. From small upgrades to full renovations, 
-              we work closely with homeowners to deliver work done right.
+              We are committed to delivering high-quality craftsmanship, reliable service, and professional project management for every home renovation and finishing project.
             </p>
+            <div className={styles.areasServed}>
+              <h3>Areas We Serve</h3>
+              <ul className={styles.areasList}>
+                {['Calgary', 'Airdrie', 'Chestermere', 'Cochrane', 'Okotoks', 'Strathmore', 'Red Deer', 'Edmonton', 'Canmore', 'Banff'].map((area) => (
+                  <li key={area}>{area}</li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

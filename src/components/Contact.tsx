@@ -19,7 +19,16 @@ const Contact = () => {
           </div>
           <div className={styles.section}>
             <h3>Follow Us</h3>
-            <p className={styles.socialLink}>{contactInfo.socialMedia}</p>
+            <p>
+              <a
+                href={contactInfo.instagramUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.socialLink}
+              >
+                {contactInfo.socialMedia}
+              </a>
+            </p>
           </div>
         </div>
       </div>

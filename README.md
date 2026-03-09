@@ -1,13 +1,14 @@
 # Khinda Limited Website
 
-A modern, responsive website for Khinda Limited - a licensed family-owned residential renovation and finishing company serving Alberta.
+A modern, responsive website for Khinda Limited - a licensed, insured, and WCB-covered family-owned residential renovation and finishing company serving communities across Alberta.
 
 ## 🚀 Features
 
 - **Modern React Stack**: Built with React 18, TypeScript, and Vite
 - **Responsive Design**: Fully responsive layout optimized for mobile, tablet, and desktop
 - **Smooth Animations**: Fade-in/out transitions for image galleries and testimonials
-- **Dynamic Image Gallery**: Auto-rotating showcase of 29 renovation projects
+- **Dynamic Image Gallery**: Auto-rotating showcase of 47 renovation projects
+- **Category Gallery**: Per-category rotating gallery (Flooring, Exterior, Cabinets)
 - **Mobile Navigation**: Hamburger menu for seamless mobile browsing
 - **Performance Optimized**: Fast loading times with lazy loading and optimized assets
 - **SEO Ready**: Proper meta tags and semantic HTML structure
@@ -21,7 +22,7 @@ kh/
 │       ├── logo/
 │       │   └── kh-logo.jpeg
 │       └── works/
-│           └── work-01.jpeg to work-29.jpeg
+│           └── work-01.jpeg to work-47.jpeg
 ├── src/
 │   ├── components/
 │   │   ├── Header.tsx
@@ -107,9 +108,14 @@ npm run preview
 
 ### Animated Works Gallery
 - Displays 9 random images at a time
-- Auto-rotates every 5 seconds
+- Auto-rotates 3 images every 5 seconds
 - Smooth fade-in/out transitions
-- Showcases all 29 renovation projects
+- Showcases all 47 renovation projects
+
+### Category Gallery
+- Three dedicated categories: Flooring/Tiling/Painting, Exterior Work, Custom Cabinets
+- Each category cycles through its own curated image pool
+- Images rotate one category at a time every 3.5 seconds
 
 ### Mobile-First Design
 - Hamburger menu for mobile navigation
@@ -125,10 +131,10 @@ npm run preview
 
 ## 📞 Contact Information
 
-**Office**: 303-116 Loutit Road, Fort McMurray, Alberta, Canada T9K 0K5  
+**Office**: 16 Martindale Dr NE, Calgary, Alberta, Canada T3J 2V6  
 **Phone**: 780-803-3245  
 **Email**: info@khindaltd.com  
-**Social**: @khindahomes  
+**Instagram**: [@khinda_ltd](https://www.instagram.com/khinda_ltd)  
 
 **Office Hours**: Monday to Friday 9:00 am to 6:00 pm, Weekends by appointment
 

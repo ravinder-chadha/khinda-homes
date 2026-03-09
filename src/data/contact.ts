@@ -5,6 +5,7 @@ export interface ContactInfo {
   email: string;
   officeHours: string;
   socialMedia: string;
+  instagramUrl: string;
 }
 
 export const contactInfo: ContactInfo = {
@@ -13,5 +14,6 @@ export const contactInfo: ContactInfo = {
   phone: "780-803-3245",
   email: "info@khindaltd.com",
   officeHours: "Monday to Friday 9:00 am to 6:00 pm\nWeekends by appointment",
-  socialMedia: "@khinda_ltd"
+  socialMedia: "@khinda_ltd",
+  instagramUrl: "https://www.instagram.com/khinda_ltd"
 };

@@ -51,6 +51,44 @@
   margin-bottom: 1.5rem;
 }
 
+.areasServed {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.areasServed h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-accent, #c9a96e);
+  margin-bottom: 0.75rem;
+}
+
+.areasList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.areasList li {
+  font-size: 0.875rem;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  opacity: 0.85;
+  transition: border-color 0.2s ease, opacity 0.2s ease;
+}
+
+.areasList li:hover {
+  border-color: var(--color-accent, #c9a96e);
+  opacity: 1;
+}
+
 @media (max-width: 968px) {
   .content {
     grid-template-columns: 1fr;

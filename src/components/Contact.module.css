@@ -40,6 +40,7 @@
 .socialLink {
   font-weight: 600;
   font-size: 1.25rem;
+  text-decoration: none;
 }
 
 @media (max-width: 968px) {

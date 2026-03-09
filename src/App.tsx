@@ -6,6 +6,7 @@ import Gallery from './components/Gallery'
 import WorksShowcase from './components/WorksShowcase'
 import Testimonials from './components/Testimonials'
 import Contact from './components/Contact'
+import Map from './components/Map'
 import Footer from './components/Footer'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <WorksShowcase />
         <Testimonials />
         <Contact />
+        <Map />
       </main>
       <Footer />
     </>
